@@ -9,16 +9,16 @@ Carrega os elementos do App
 
 Iniciar Sessão
     Carrega os elementos do App
-    Wait For Image      button-ok.png
-    Click Button        button-ok.png
+    Wait For Image      button-ok.png    not-button-ok.png    500
+    Click               button-ok.png
     Click               icon-gil.png
 
 Efetuar login
-    Click Button        button-entrar.PNG
+    Click               button-entrar.PNG
 
 Encerrar Sessão
     Stop Remote Server
 
 Finaliza Teste
     Capture Screen
-    Close Application    GILv2
+#    Close Application    GILv2
