@@ -1,7 +1,5 @@
 # gil-auto
 
-# test-cucumber
-
 <p align="center">
   <a href="https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html">Robot Framework Documentation</a> |
   <a href="https://rainmanwy.github.io/robotframework-SikuliLibrary/doc/SikuliLibrary.html">Sikuli Library</a> |
