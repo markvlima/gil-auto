@@ -65,6 +65,18 @@ Verifique a instalação da biblioteca:
 pip show robotframework-SikuliLibrary
 ```
 
+### Test Execution
+
+Para executar os testes no terminal, use o formato:
+```bash
+robot .\tests\login.robot
+```
+
+Para executar os testes organizando os logs em uma pasta, utilize o código:
+```bash
+robot -d ./logs tests\login.robot
+```
+
 ## Project Settings
 
 Agora que você tem o Robot Framework e o SikuliLibrary instalados, você pode configurar seu projeto.
@@ -94,16 +106,11 @@ Teste de Clique
 
 :file_folder: gil-auto
 ```text
-├ app
 ├ logs
 ├ resources
 | ├ elements
 | └ base.robot
-| sikuli_captured
 ├ tests
 ├ .gitignore
-├ log.html
-├ output.xml
-├ README.md
-└ report.html
+└ README.md
 ```
