@@ -9,9 +9,10 @@ Carrega os elementos do App
 
 Iniciar Sessão
     Carrega os elementos do App
-    Wait For Image      button-ok.png    not-button-ok.png    500
-    Click               button-ok.png
+    Wait For Image      icon-gil.png    not-button-ok.png    500
     Click               icon-gil.png
+    #Click               button-ok.png
+
 
 Efetuar login
     Click               button-entrar.PNG
@@ -21,4 +22,4 @@ Encerrar Sessão
 
 Finaliza Teste
     Capture Screen
-#    Close Application    GILv2
+    Close Application    GILv2
